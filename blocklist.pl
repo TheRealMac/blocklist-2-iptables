@@ -50,18 +50,19 @@ if ($help || (!$sure && !$debug && !$init && !$flush)) {
 	exit;
 }
 
-my %urls = ("ssh" => 				"http://lists.blocklist.de/lists/ssh.txt",
-						"mail" => 			"http://lists.blocklist.de/lists/mail.txt",
-						"imap" => 			"http://lists.blocklist.de/lists/imap.txt",
-						"strong" =>			"http://lists.blocklist.de/lists/strongips.txt",
-						"apache" => 		"http://lists.blocklist.de/lists/apache.txt",
-						"ftp" => 				"http://lists.blocklist.de/lists/ftp.txt",
-						"sip" => 				"http://lists.blocklist.de/lists/sip.txt", #voip ...
-						"bots" => 			"http://lists.blocklist.de/lists/bots.txt",	#All IP addresses which have been reported within the last 48 hours as having run attacks attacks on the RFI-Attacks, REG-Bots, IRC-Bots or BadBots (BadBots = he has posted a Spam-Comment on a open Forum or Wiki). 
-						"irc" => 				"http://lists.blocklist.de/lists/ircbot.txt",
-						"bruteforce" => "http://lists.blocklist.de/lists/bruteforcelogin.txt",	#wp-logins
-						"lastIps" => 		"http://api.blocklist.de/getlast.php?time=3600"
-					 );
+my %urls = (
+	"ssh" => 	"http://lists.blocklist.de/lists/ssh.txt",
+	"mail" =>	"http://lists.blocklist.de/lists/mail.txt",
+	"imap" =>	"http://lists.blocklist.de/lists/imap.txt",
+	"strong" =>	"http://lists.blocklist.de/lists/strongips.txt",
+	"apache" =>	"http://lists.blocklist.de/lists/apache.txt",
+	"ftp" => 	"http://lists.blocklist.de/lists/ftp.txt",
+	"sip" => 	"http://lists.blocklist.de/lists/sip.txt", #voip ...
+	"bots" => 	"http://lists.blocklist.de/lists/bots.txt",	#All IP addresses which have been reported within the last 48 hours as having run attacks attacks on the RFI-Attacks, REG-Bots, IRC-Bots or BadBots (BadBots = he has posted a Spam-Comment on a open Forum or Wiki). 
+	"irc" => 	"http://lists.blocklist.de/lists/ircbot.txt",
+	"bruteforce" => "http://lists.blocklist.de/lists/bruteforcelogin.txt",	#wp-logins
+	"lastIps" => 	"http://api.blocklist.de/getlast.php?time=3600"
+	);
 
 #types of lists to import
 my @types;
