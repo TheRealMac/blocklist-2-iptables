@@ -30,7 +30,7 @@ Examples:       ./blocklist.pl -d
 -init   flushing the iptable rules too
 -q      quiet - don't display the summary after processing</pre>
 
-# Tips
+# Tipps
 use it in your cronjobs
 <pre>#protecting the server
 */30 * * * *    /home/mac/scripts/act/blocklist.pl -s -q
@@ -38,7 +38,7 @@ use it in your cronjobs
 
 
 # Requirements
-Perl 5.x
+Perl 5.x<br/>
 LWP::Simple
 
 # Known issues
