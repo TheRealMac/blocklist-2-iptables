@@ -33,8 +33,8 @@ Examples:       ./blocklist.pl -d
 # Tipps
 use it in your cronjobs
 <pre>#protecting the server
-*/30 * * * *    /home/mac/scripts/act/blocklist.pl -s -q
-15 */6 * * *    /home/mac/scripts/act/blocklist.pl -flush -s</pre>
+*/30 * * * *    /path_to_your_scripts/blocklist.pl -s -q
+15 */6 * * *    /path_to_your_scripts/blocklist.pl -flush -s</pre>
 
 
 # Requirements
