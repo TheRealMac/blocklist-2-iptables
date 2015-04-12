@@ -2,12 +2,12 @@
 Perl Script to manage iptables rules containing IP-Adresses from various download sources (i.e. blocklist.de) 
 
 # idea behind
-a simple way to add known spammers and attackers periodically to Linux' iptables
+a simple way to add known spammers and attackers periodically to Linux' iptables (without ipset)
 
 Currently the lists of IP-addresses are coming from https://www.blocklist.de/en/index.html, it's possible to add other sources too.
 The sources can be categorized (@types) so you can define your own types, these types are used for the iptables chain names too.
 
-This scripts 
+This script
 * collects the IP-Adresses from the given URLs
 * creates a Class-C net if possible to reduce number of rules
 * checks for duplicates
