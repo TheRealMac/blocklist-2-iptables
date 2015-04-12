@@ -1,21 +1,5 @@
 #!/usr/bin/perl -sw
 #
-# blocklist - iptables script 1.1
-#
-# Setting IPTables-Rules from blocklist IP Sets
-#
-# 2015-04-07 [1.1]
-#		- some improvements
-#			added "quiet" switch
-#			added "flush" switch
-#			removed "refresh" switch
-#			Hilfe/Infos dazugefuegt 
-# 2015- [1.0]
-#		- first release
-#
-#
-
-
 # blocklist.pl - Version 1.2
 #		2015 Apr 12th
 # 
