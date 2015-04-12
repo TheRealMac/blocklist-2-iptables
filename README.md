@@ -38,6 +38,7 @@ use it in your cronjobs
 
 
 # Requirements
+Linux Server with iptables<br/>
 Perl 5.x<br/>
 LWP::Simple
 
